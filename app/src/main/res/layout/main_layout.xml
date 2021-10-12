@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                     xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                     xmlns:tools="http://schemas.android.com/tools"
+                                                     android:layout_width="match_parent"
+                                                     android:layout_height="match_parent"
+                                                     tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/Theme.BrazeAdvancedSamples.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/Theme.BrazeAdvancedSamples.PopupOverlay"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:layout_marginTop="@dimen/action_button_container_top_margin"
+                      android:layout_marginStart="@dimen/action_button_container_left_margin">
+            <EditText android:layout_width="275dp" android:layout_height="match_parent" android:id="@+id/username_text" />
+            <Button android:layout_width="wrap_content" android:layout_height="match_parent"
+                    android:text="@string/set_user" android:id="@+id/setUserButton" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:layout_marginTop="@dimen/action_button_container_top_margin"
+                      android:layout_marginStart="@dimen/action_button_container_left_margin">
+            <Button android:layout_width="@dimen/action_button_width"
+                    android:layout_height="@dimen/action_button_height"
+                    android:id="@+id/htmlContentButton" android:text="@string/trigger_html"/>
+            <Space android:layout_width="@dimen/button_space" android:layout_height="@dimen/button_space_height"/>
+            <Button android:layout_width="@dimen/action_button_width"
+                    android:layout_height="@dimen/action_button_height"
+                    android:id="@+id/fullContentButton" android:text="@string/trigger_content"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:layout_marginTop="@dimen/action_button_container_top_margin"
+                      android:layout_marginStart="@dimen/action_button_container_left_margin">
+            <Button android:layout_width="@dimen/action_button_width"
+                    android:layout_height="@dimen/action_button_height"
+                    android:id="@+id/messageCenterButton" android:text="@string/message_center"/>
+            <Space android:layout_width="@dimen/button_space" android:layout_height="@dimen/button_space_height"/>
+            <Button android:layout_width="@dimen/action_button_width"
+                    android:layout_height="@dimen/action_button_height"
+                    android:id="@+id/contentListButton" android:text="@string/content_list"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:layout_marginTop="@dimen/action_button_container_top_margin"
+                      android:layout_marginStart="@dimen/action_button_container_left_margin">
+            <Button android:layout_width="@dimen/action_button_width"
+                    android:layout_height="@dimen/action_button_height"
+                    android:id="@+id/notificationButton" android:text="@string/notification"/>
+            <Space android:layout_width="@dimen/button_space" android:layout_height="@dimen/button_space_height"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

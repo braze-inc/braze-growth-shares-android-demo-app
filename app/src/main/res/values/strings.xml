@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BrazeAdvancedSamples</string>
+    <string name="hello">Hello world!</string>
+    <string name="next">Next</string>
+    <string name="select_team">Select your favorite team!</string>
+    <string name="select">Select</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="trigger_content">Trigger Content</string>
+    <string name="trigger_html">Trigger HTML</string>
+    <string name="message_center">Message Center</string>
+    <string name="content_list">Content List</string>
+    <string name="notification">Trigger Notification</string>
+    <string name="service_name">NotificationService</string>
+    <string name="set_user">Set User</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.braze.advancedsamples.immersive.CustomImmersiveInAppMessage
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:orientation="vertical">
+<!--            <ImageView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="329dp" tools:srcCompat="@tools:sample/backgrounds/scenic"-->
+<!--                    android:id="@+id/imageView" style="@style/Appboy.InAppMessage.Image.Full"/>-->
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="16pt"
+                      android:textStyle="bold" android:id="@+id/title" android:gravity="center"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="14pt"
+                       android:gravity="center" android:id="@+id/subtitle"/>
+            <androidx.recyclerview.widget.RecyclerView android:layout_width="match_parent"
+                                                       android:layout_height="wrap_content"
+                                                       android:id="@+id/option_list"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.braze.advancedsamples.immersive.CustomImmersiveInAppMessage>

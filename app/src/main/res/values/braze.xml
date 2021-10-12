@@ -1,0 +1,7 @@
+<resources>
+    <string name="com_appboy_api_key">YOUR_BRAZE_API_KEY</string>
+    <string translatable="false" name="com_appboy_custom_endpoint">YOUR_BRAZE_ENDPOINT</string>
+    <string translatable="false" name="com_appboy_firebase_cloud_messaging_sender_id">YOUR_FCM_SENDER ID</string>
+    <bool name="com_appboy_enable_location_collection">true</bool>
+    <bool translatable="false" name="com_appboy_firebase_cloud_messaging_registration_enabled">true</bool>
+</resources>
